@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<h1> FORMULARIO </h1>
+<body>                
+    <form action="/registro" method="post">
+        <fieldset>
+            <legend>Informacion Personal</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required> <!-- tipo texto-->
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="Apellido" name="Apellido" required>
+ 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <!-- tipo email -->
+ 
+ 
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required> <!-- tipo password-->
+    </fieldset>
+ <fieldset>
+        <label for="edad">Fecha de Nacimiento:</label>
+        <input type="date" id="edad" name="edad" required> <!-- tipo número-->
+        <label for="DNI">DNI:</label>
+        <input type="number" id="DNI" name="DNI" required> 
+        <label for="Numero de Telefono">Nùmero de telefono:</label>
+        <input type="tel" id="Numero de Telefono" name="Numero de telefono" required> 
+    </fieldset>
+    <fieldset>
+        <label for="X">Usuario de X:</label>
+        <input type="text" id="Usuario de X" name="Usuario de X" required>
+        <label for="X">Usuario de Instagram:</label>
+        <input type="text" id="Usuario de Instagram" name="Usuario de Instagram" required>
+        <label for="Ciudad">Ciudad:</label>
+        <input type="text" id="Ciudad" name="Ciudad" required> <br>
+        <label for="Provincia">Provincia:</label>       
+        <input type="text" id="Provincia" name="Provincia" required>
+    </fieldset>
+    <fieldset>
+    <label for="JuegoFAV">¿Cual es tu Juego Favorito?:</label>
+    <input type="text" id="JuegoFAV" name="JuegoFAV" required>
+    <label for="Juego">Y Porque?:</label>
+    <input type="text" id="JuegoFAV" name="JuegoFAV" required>
+</fieldset>
+
+
+
+
+      
+<input type="submit" value="Registrarse"> <!-- botón de envío al servidor-->
+<input type="reset" value="Borrar">    </form> <!-- borra el contenido de los datos del formulario-->
+</body>
+</html>
